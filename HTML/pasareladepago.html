@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasarela de pago</title>
+    <!--Iconos BootStrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--FontsGoogle-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style.css"/> 
+<link rel="stylesheet" href="../CSS/card.css"/>
+<link rel="stylesheet" href="../CSS/button.css"/>
+<link rel="stylesheet" href="../CSS/caja.css"/>
 </head>
 <body>
   <link rel="stylesheet" href="../CSS/style.css"/>
@@ -11,20 +21,21 @@
         <img src="../Images/Glutenfree1.jpg.jpg" alt="logo" width="10%" />
         <h4>GlutenFreeAndy</h4>
     <div>
-      <h5><a href="carrito3.html">Carrito</a></h5>
-      <h5>Forma de pago</h5>
-      <h5>Realizar pedido</h5>
+      
+      <h5><a href="carrito3.html" class="btn" id="carrito">Carrito<span>5</span></a></h5>
+      <button class="btn"><h5>Forma de pago</h5></button>
+      <button class="btn"><h5>Realizar pedido</h5></button>
     </div>  
 </header>
 <main>
             <h1>Forma de pago</h1>
-            <a href="Productos2.html">Seguir comprando</a>
+            <a href="index.html" class="btn">Seguir comprando</a>
    <div>
     <h3>Mis tarjetas</h3>
     <form>
-        <input type="submit" value="Mastercard...6054"/>
-        <input type="submit" value="Mastercard...3058"/>
-        <input type="submit" value="Visa...5432"/>
+        <input type="submit" value="Mastercard...6054" class="btn"/>
+        <input type="submit" value="Mastercard...3058" class="btn"/>
+        <input type="submit" value="Visa...5432" class="btn"/>
     </form>
    </div> 
    <div>
@@ -34,10 +45,10 @@
         <input type="text" name="nombre" id="nombre" placeholder="Titular de la tarjeta"/>
         <input type="date" name="fecha" id="fecha" placeholder="Fecha de caducidad"/>
         <input type="number" name="CVV" id="CVV" placeholder="CVV"/>
-        <input type="submit" value="Añadir a mis tarjetas"/>
+        <input type="submit" value="Añadir a mis tarjetas" class="btn"/>
     </form>
    </div>
-</main>
+
 <section>
     <div>
       <div>
@@ -62,25 +73,26 @@
       </div>
     </div>
 </section>
+</main>
 <footer>
     <div>
       <img src="../Images/Glutenfree1.jpg.jpg" name="logo" width="10%" />
      <h5> GlutenFreeAndy</h5>
       <div>
         <ul class="menu">
-      <li>  <a href="https://www.google.es/">Centro de ayuda</a> </li> 
-      <li>  <a href="https://www.google.es/">Servicio al consumidor</a></li>
-      <li>  <a href="https://www.google.es/">Esribenos</a></li>
-      <li>  <a href="https://www.google.es/">Servicio telefonico</a></li>
+      <li>  <a href="https://www.google.es/" class="btn">Centro de ayuda</a> </li> 
+      <li>  <a href="https://www.google.es/" class="btn">Servicio al consumidor</a></li>
+      <li>  <a href="https://www.google.es/" class="btn">Esribenos</a></li>
+      <li>  <a href="https://www.google.es/" class="btn">Servicio telefonico</a></li>
   </ul>   
   </div>
  
       <div>
         <ul class="menu">
-       <li><a href="https://www.google.es/">Politica de privacidad</a></li> 
-       <li> <a href="https://www.google.es/">Condiciones de compra</a></li>
-       <li> <a href="https://www.google.es/">opiniones de clientes</a></li>
-       <li>   <a href="https://www.google.es/">Servicio telefonico</a></li>
+       <li><a href="politicadeprivacidad.html" class="btn">Politica de privacidad</a></li> 
+       <li> <a href="https://www.google.es/" class="btn">Condiciones de compra</a></li>
+       <li> <a href="https://www.google.es/" class="btn">opiniones de clientes</a></li>
+       <li>   <a href="https://www.google.es/" class="btn">Servicio telefonico</a></li>
       </ul>
       </div>
     </div>
@@ -89,7 +101,7 @@
         <h5>Unete a nuestras novedades y recibe ofertas y promociones</h5>
         <form>
           <input type="email" name="email" placeholder="introduce tu email" />
-          <button type="submit">Suscribirme</button>
+          <button type="submit" class="btn">Suscribirme</button>
           <label for="email"
             ><input type="checkbox" name="email" />Acepto la politica de
             privacidad de la pagina</label>
@@ -98,10 +110,11 @@
       <div>
           <h4>Siguenos en redes</h4>
           <ul class="menu">
-          <img src="../Images/insta.jpg" name="instagram" width="10%" />
-         <img src="../Images/Facebook_icon.jpg" name="facebook" width="10%" />
-          <img src="../Images/Twitch.jpg" name="twich" width="10%" />
-          <img src="../Images/youtube.jpg" name="youtube" width="10%" />
+           
+            <li><img src="../Images/insta.jpg" name="instagram" width="10%" /></li>
+            <li><img src="../Images/Facebook_icon.jpg" name="facebook" width="10%" /></li>
+            <li><img src="../Images/Twitch.jpg" name="twich" width="10%" /></li>
+            <li><img src="../Images/youtube.jpg" name="youtube" width="10%" /></li>
       </ul>
       </div>
   </div>

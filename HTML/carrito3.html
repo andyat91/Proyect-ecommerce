@@ -4,56 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
+ <!--Iconos BootStrap-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+ <!--FontsGoogle-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+ <!--Componentes CSS-->
+ <link rel="stylesheet" href="../CSS/style.css"/> 
+ <link rel="stylesheet" href="../CSS/card.css"/>
+ <link rel="stylesheet" href="../CSS/button.css"/>
+ <link rel="stylesheet" href="../CSS/caja.css"/>
 </head>
 <body>
-  <link rel="stylesheet" href="../CSS/style.css"/>
-    <header>
+ 
+<header>
         <img src="../Images/Glutenfree1.jpg.jpg" alt="logo" width="10%" />
         <h4>GlutenFreeAndy</h4>
     <div>
-      <h5><a href="carrito3.html">Carrito</a></h5>
-      <h5>Forma de pago</h5>
-      <h5>Realizar pedido</h5>
+          
+        <a class="relative" href="carrito3.html" class="btn" id="carrito"> Carrito<span>5</span></a>
+      <button class="btn">Forma de pago</button>
+      <button class="btn">Realizar pedido</button>
     </div>  
     </header>
-    <main>
-            <h1>Mi Carrito</h1>
-            <a href="Productos2.html">Seguir comprando</a>
-        <div>
+<nav>
+    <h1>Mi Carrito</h1>
+    <a href="index.html" class="btn">Seguir comprando</a>
+</nav>
+<main>
+      <div>
+          
             <div>
                 <img src="../Images/galletassin.jpg" alt="galleta" width="10%" />
           <h4>Galletas sin Gluten</h4>
-          <h5>3,95€</h5> 
+          <h5 class="m-color">3,95<i class="bi bi-cash-coin"></i></h5> 
           <input type="number" name="number" id="number"/>
           <button type="submit" value="eliminar">Eliminar</button>
             </div>
             <div>
                 <img src="../Images/panrallado.jpg" alt="pan rallado" width="10%" />
           <h4>Pan Rallado</h4>
-          <h5>2,15€</h5> 
+          <h5 class="m-color">2,15<i class="bi bi-cash-coin"></i></h5> 
           <input type="number" name="number" id="number"/>
-          <button type="submit" value="eliminar">Eliminar</button>
+          <button type="submit" value="eliminar" class="btn">Eliminar</button>
             </div>
             <div>
                 <img src="../Images/pastasin.jpg" alt="pasta" width="10%" />
           <h4>Pasta sin gluten GALLO</h4>
-          <h5>1,70€</h5> 
+          <h5 class="m-color">1,70<i class="bi bi-cash-coin"></i></h5> 
           <input type="number" name="number" id="number"/>
-          <button type="submit" value="eliminar">Eliminar</button>
+          <button type="submit" value="eliminar" class="btn">Eliminar</button>
             </div>
-        </div>
-        <div>
+      </div>
+      <div>
             <h4>Resumen de su compra</h4>
             <p>Continuar para proceder a la pasarela de pago</p>
-            <h3>7,80€</h3>
-            <a href="pasareladepago.html">Proceder al pago</a>
+            <h3 class="m-color">7,80<i class="bi bi-cash-coin"></i></h3>
+            <a href="pasareladepago.html" class="btn">Proceder al pago</a>
+      </div>
+    
+
+<section>
+        <h3>Productos recomendados</h3>
+        <div class="card"> 
+
+          <img src="../Images/pastasin.jpg" alt="pasta" width="20%" />
+      
+            <div> 
+              <h4>Pasta sin Gluten</h4>
+              <h5>1,70<i class="bi bi-cash-coin"></i></h5>
+            </div>
+              <div class="valoracion">
+                <span class="m-color">
+                      <i class="bi bi-star m-color"></i>
+                      <i class="bi bi-star m-color"></i>
+                      <i class="bi bi-star m-color"></i>
+                </span>
+                      <i class="bi bi-star"></i>
+                      <i class="bi bi-star"></i>
+              </div> 
+          <button class="btn-block" class="btn">Añadir al carrito</button> 
+      </div>  
+      <div class="card"> 
+
+        <img src="../Images/panrallado.jpg" alt="pasta" width="20%" />
+    
+          <div> 
+            <h4>Pasta rallado</h4>
+            <h5>2.15<i class="bi bi-cash-coin"></i></h5>
+          </div>
+            <div class="valoracion">
+              <span class="m-color">
+                    <i class="bi bi-star m-color"></i>
+                    <i class="bi bi-star m-color"></i>
+                    <i class="bi bi-star m-color"></i>
+              </span>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+            </div>  
+            <button class="btn-block" class="btn">Añadir al carrito</button> 
+    </div>  
+    <div class="card"> 
+
+      <img src="../Images/pansingluten.jpg" alt="pasta" width="20%" />
+  
+        <div> 
+          <h4>Pasta sin Gluten</h4>
+          <h5>3.95<i class="bi bi-cash-coin"></i></h5>
         </div>
-    </main>
-    <section>
+          <div class="valoracion">
+            <span class="m-color">
+                  <i class="bi bi-star m-color"></i>
+                  <i class="bi bi-star m-color"></i>
+                  <i class="bi bi-star m-color"></i>
+            </span>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+          </div>
+          <button class="btn-block">Añadir al carrito</button>   
+  </div>  
+      </section>
+      <section>
+      
         <div>
           <div>
             <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-            <h5>Pago Seguro</h5>
+            <h5 class="m-color">Pago Seguro</h5>
             <h6>100 por 100 Garantizado</h6>
           </div>
           <div>
@@ -73,25 +150,26 @@
           </div>
         </div>
       </section>
+    </main>
       <footer>
         <div>
           <img src="../Images/Glutenfree1.jpg.jpg" name="logo" width="10%" />
          <h5> GlutenFreeAndy</h5>
           <div>
             <ul class="menu">
-          <li>  <a href="https://www.google.es/">Centro de ayuda</a> </li> 
-          <li>  <a href="https://www.google.es/">Servicio al consumidor</a></li>
-          <li>  <a href="https://www.google.es/">Esribenos</a></li>
-          <li>  <a href="https://www.google.es/">Servicio telefonico</a></li>
+          <li>  <a href="https://www.google.es/" class="btn">Centro de ayuda</a> </li> 
+          <li>  <a href="https://www.google.es/" class="btn">Servicio al consumidor</a></li>
+          <li>  <a href="https://www.google.es/" class="btn">Esribenos</a></li>
+          <li>  <a href="https://www.google.es/" class="btn">Servicio telefonico</a></li>
         </ul>   
       </div>
       
           <div>
             <ul class="menu">
-           <li><a href="https://www.google.es/">Politica de privacidad</a></li> 
-           <li> <a href="https://www.google.es/">Condiciones de compra</a></li>
-           <li> <a href="https://www.google.es/">opiniones de clientes</a></li>
-           <li> <a href="https://www.google.es/">Servicio telefonico</a></li>
+           <li><a href="politicadeprivacidad.html" class="btn">Politica de privacidad</a></li> 
+           <li> <a href="https://www.google.es/" class="btn">Condiciones de compra</a></li>
+           <li> <a href="https://www.google.es/" class="btn">opiniones de clientes</a></li>
+           <li> <a href="https://www.google.es/" class="btn">Servicio telefonico</a></li>
            </ul>
           </div>
         </div>
@@ -100,7 +178,7 @@
             <h5>Unete a nuestras novedades y recibe ofertas y promociones</h5>
             <form>
               <input type="email" name="email" placeholder="introduce tu email" />
-              <button type="submit">Suscribirme</button>
+              <button type="submit" class="btn">Suscribirme</button>
               <label for="email"
                 ><input type="checkbox" name="email" />Acepto la politica de
                 privacidad de la pagina</label>
@@ -109,10 +187,11 @@
           <div>
               <h4>Siguenos en redes</h4>
               <ul class="menu">
-              <img src="../Images/insta.jpg" name="instagram" width="10%" />
-              <img src="../Images/Facebook_icon.jpg" name="facebook" width="10%" />
-              <img src="../Images/Twitch.jpg" name="twich" width="10%" />
-              <img src="../Images/youtube.jpg" name="youtube" width="10%" />
+                
+                <li><img src="../Images/insta.jpg" name="instagram" width="10%" /></li>
+                <li><img src="../Images/Facebook_icon.jpg" name="facebook" width="10%" /></li>
+                <li><img src="../Images/Twitch.jpg" name="twich" width="10%" /></li>
+                <li><img src="../Images/youtube.jpg" name="youtube" width="10%" /></li>
           </ul>
           </div>
       </div>

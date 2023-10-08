@@ -1,0 +1,17 @@
+/*poner el boton de carrito para que pueda tener el numero flotando*/
+#carrito {
+    position:relative;
+}
+header span{
+    position:absolute;
+}
+
+
+
+.btn{
+    text-decoration: none;
+    display:inline-block;
+    border: 2px solid;
+    padding: 16px 24px;
+    
+}
