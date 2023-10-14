@@ -1,0 +1,13 @@
+
+.index-header{
+    display:inline-block;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+header div{
+    display:inline-block;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }

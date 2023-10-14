@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    padding-bottom: 40px;
+}
+nav div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+nav div ul li{
+    padding-right: 32px;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: var(--negro);
+}
+nav div ul li a:hover{
+    color: var(--resalto);
+}
+#logout{
+    padding-right: 0px;
+}

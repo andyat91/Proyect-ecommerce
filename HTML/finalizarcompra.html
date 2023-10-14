@@ -14,8 +14,11 @@
 <link rel="stylesheet" href="../CSS/card.css"/>
 <link rel="stylesheet" href="../CSS/button.css"/>
 <link rel="stylesheet" href="../CSS/caja.css"/>
+<link rel="stylesheet" href="../CSS/section.css"/>
+<link rel="stylesheet" href="../CSS/header.css"/>
+<link rel="stylesheet" href="../CSS/nav.css"/>
 </head>
-<body>
+<body class="wrap">
   
 <header>
         <img src="../Images/Glutenfree1.jpg.jpg" alt="logo" width="10%" />
@@ -28,7 +31,7 @@
     </div>  
 </header>
 <main>
-            <h1>Finalizar compra</h1>
+            <h3>Finalizar compra</h3>
             <a href="pasareladepago.html" class="btn">Mastercard...4564</a>
             <button type="submit" class="btn">Cambiar metodo de pago</button>
             <div>
@@ -61,53 +64,55 @@
                 <h4>Pasta sin Gluten</h4>
                 <h5>1,70€</h5>
                 <form>
-                  <input type="number" name="cantidad" id="cantidad"/>
+                  <input type="number" name="cantidad"  class="btn-block"/>
                 </form>
               </div>
               <div>
                 <h4>Pan Rallado DIAT 250g</h4>
                 <h5>2,15€</h5>
                 <form>
-                  <input type="number" name="cantidad" id="cantidad"/>
+                  <input type="number" name="cantidad" class="btn-block" class="btn"/>
                 </form>
               </div>
               <div>
                 <h4>Pan de molde sin GLuten BIMBO 400g</h4>
                 <h5>4,10€</h5>
                 <form>
-                  <input type="number" name="cantidad" id="cantidad"/>
+                  <input type="number" name="cantidad" class="btn-block" class="btn"/>
                 </form>
               </div>
+              <div class="caja">
               <h4>TOTAL</h4>
               <h4>7,95€</h4>
               <form>
-                <input type="submit" value="Pagar con tarjeta" id="pago" class="btn" />
+                <input type="submit" value="Pagar con tarjeta" id="pago" class="btn-block" class="btn" />
               </form>
+              </div> 
             </div>
 
 <section>
-  <div>
-    <div>
-      <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-      <h5>Pago Seguro</h5>
-      <h6>100 por 100 Garantizado</h6>
-    </div>
-    <div>
-      <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-      <h5>Envio Gratis</h5>
-      <h6>En pedidos de mas de 20€</h6>
-    </div>
-    <div>
-      <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-      <h5>Productores locales</h5>
-      <h6>Bajos en azucar</h6>
-    </div>
-    <div>
-      <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-      <h5>Ofertas unicas</h5>
-      <h6>100 por 100 Garantizado</h6>
-    </div>
-  </div>
+        
+              <div>
+                <h1><i class="bi bi-credit-card"></i></h1>
+                <h5>Pago Seguro</h5>
+                <h6>100 por 100 Garantizado</h6>
+              </div>
+              <div>
+                <h1><i class="bi bi-truck"></i></h1>
+                <h5>Envio Gratis</h5>
+                <h6>En pedidos de mas de 20€</h6>
+              </div>
+              <div>
+                <h1><i class="bi bi-geo"></i></h1>
+                <h5>Local</h5>
+                <h6>Bajos en azucar</h6>
+              </div>
+              <div>
+                <h1><i class="bi bi-piggy-bank"></i></h1>
+                <h5>Ofertas unicas</h5>
+                <h6>100 por 100 Garantizado</h6>
+              </div>
+          
 </section>
 </main>
 <footer>

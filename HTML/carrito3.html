@@ -15,8 +15,11 @@
  <link rel="stylesheet" href="../CSS/card.css"/>
  <link rel="stylesheet" href="../CSS/button.css"/>
  <link rel="stylesheet" href="../CSS/caja.css"/>
+ <link rel="stylesheet" href="../CSS/section.css"/>
+ <link rel="stylesheet" href="../CSS/header.css"/>
+<link rel="stylesheet" href="../CSS/nav.css"/>
 </head>
-<body>
+<body class="wrap">
  
 <header>
         <img src="../Images/Glutenfree1.jpg.jpg" alt="logo" width="10%" />
@@ -36,11 +39,11 @@
       <div>
           
             <div>
-                <img src="../Images/galletassin.jpg" alt="galleta" width="10%" />
+                <img src="../Images/galletassin.jpg" alt="galletas" width="10%" />
           <h4>Galletas sin Gluten</h4>
           <h5 class="m-color">3,95<i class="bi bi-cash-coin"></i></h5> 
           <input type="number" name="number" id="number"/>
-          <button type="submit" value="eliminar">Eliminar</button>
+          <button type="submit" value="eliminar" class="btn">Eliminar</button>
             </div>
             <div>
                 <img src="../Images/panrallado.jpg" alt="pan rallado" width="10%" />
@@ -57,7 +60,7 @@
           <button type="submit" value="eliminar" class="btn">Eliminar</button>
             </div>
       </div>
-      <div>
+      <div class="caja">
             <h4>Resumen de su compra</h4>
             <p>Continuar para proceder a la pasarela de pago</p>
             <h3 class="m-color">7,80<i class="bi bi-cash-coin"></i></h3>
@@ -67,10 +70,10 @@
 
 <section>
         <h3>Productos recomendados</h3>
-        <div class="card"> 
+  <div class="card"> 
 
           <img src="../Images/pastasin.jpg" alt="pasta" width="20%" />
-      
+        <div>
             <div> 
               <h4>Pasta sin Gluten</h4>
               <h5>1,70<i class="bi bi-cash-coin"></i></h5>
@@ -84,12 +87,13 @@
                       <i class="bi bi-star"></i>
                       <i class="bi bi-star"></i>
               </div> 
+        </div>
           <button class="btn-block" class="btn">Añadir al carrito</button> 
-      </div>  
-      <div class="card"> 
+  </div>  
+  <div class="card"> 
 
         <img src="../Images/panrallado.jpg" alt="pasta" width="20%" />
-    
+      <div>
           <div> 
             <h4>Pasta rallado</h4>
             <h5>2.15<i class="bi bi-cash-coin"></i></h5>
@@ -104,13 +108,14 @@
                     <i class="bi bi-star"></i>
             </div>  
             <button class="btn-block" class="btn">Añadir al carrito</button> 
-    </div>  
-    <div class="card"> 
+      </div>
+  </div> 
+  <div class="card"> 
 
       <img src="../Images/pansingluten.jpg" alt="pasta" width="20%" />
-  
+      <div>
         <div> 
-          <h4>Pasta sin Gluten</h4>
+          <h4>Pan sin gluten</h4>
           <h5>3.95<i class="bi bi-cash-coin"></i></h5>
         </div>
           <div class="valoracion">
@@ -123,33 +128,34 @@
                   <i class="bi bi-star"></i>
           </div>
           <button class="btn-block">Añadir al carrito</button>   
+      </div>
   </div>  
-      </section>
-      <section>
-      
-        <div>
-          <div>
-            <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-            <h5 class="m-color">Pago Seguro</h5>
-            <h6>100 por 100 Garantizado</h6>
-          </div>
-          <div>
-            <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-            <h5>Envio Gratis</h5>
-            <h6>En pedidos de mas de 20€</h6>
-          </div>
-          <div>
-            <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-            <h5>Productores locales</h5>
-            <h6>Bajos en azucar</h6>
-          </div>
-          <div>
-            <img src="../Images/Glutenfree1.jpg.jpg" alt="gluten" width="6%" />
-            <h5>Ofertas unicas</h5>
-            <h6>100 por 100 Garantizado</h6>
-          </div>
-        </div>
-      </section>
+</section>
+<section>
+        
+      <div>
+        <h1><i class="bi bi-credit-card"></i></h1>
+        <h5>Pago Seguro</h5>
+        <h6>100 por 100 Garantizado</h6>
+      </div>
+      <div>
+        <h1><i class="bi bi-truck"></i></h1>
+        <h5>Envio Gratis</h5>
+        <h6>En pedidos de mas de 20€</h6>
+      </div>
+      <div>
+        <h1><i class="bi bi-geo"></i></h1>
+        <h5>Local</h5>
+        <h6>Bajos en azucar</h6>
+      </div>
+      <div>
+        <h1><i class="bi bi-piggy-bank"></i></h1>
+        <h5>Ofertas unicas</h5>
+        <h6>100 por 100 Garantizado</h6>
+      </div>
+  
+</section>
+     
     </main>
       <footer>
         <div>

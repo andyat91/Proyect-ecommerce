@@ -1,11 +1,41 @@
 .valoracion {
     color:#cacaca;
+    margin-right: 8px;
 }
 .btn-block {
     display:block;
 }
-.card {padding: 8px;
-       border:1px solid;
+.card {
+    padding: 8px;
+    border:1px solid;
+    width:20%;
+    display:inline-block;   
+               
 }
+.card img{
+    width: 100%;
+    height: 160px; 
+    overflow: hidden;
+}
+.valoracion i{
+    margin-right: 8px;
+}
+ .m-productos {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
+}
+  .m-productos div h4, h5{
+    margin: 0px;
 
+  }
+  .m-productos div h4, h5{
+    margin: 0px;
+  }
+  .card span i:hover{
+    color: var(--resalto);
+  }
+  
+  
