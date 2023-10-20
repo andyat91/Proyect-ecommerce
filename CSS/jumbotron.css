@@ -1,0 +1,13 @@
+  .jumbotron{
+    background-image:url(../Images/jumbotron4.jpeg);
+    background-size: cover;
+    text-align: right;
+    background-position: center top;
+    padding:160px 32px;
+}
+
+ .jumbotron h1,h4{
+    margin:0px;
+    color: var(--blanco);
+    font-weight: 800;
+}

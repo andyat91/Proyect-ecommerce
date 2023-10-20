@@ -17,21 +17,21 @@
 <link rel="stylesheet" href="../CSS/section.css"/>
 <link rel="stylesheet" href="../CSS/header.css"/>
 <link rel="stylesheet" href="../CSS/nav.css"/>
+<link rel="stylesheet" href="../CSS/form.css"/>
+<link rel="stylesheet" href="../CSS/jumbotron.css"/>
 </head>
-<body class="wrap">
-<header class="index-header">
-    <div class="logo">
-      <img src="../Images/Glutenfree1.jpg.jpg" name="logo" width="15%" />
-      <h3>GlutenFreeAndy</h3>
-    </div>
-     <div>
+<body >
+<header class="wrap">
+  <div class="index-login">
+      <h3><b>GlutenFreeAndy</b></h3>
       <form>
-        <input type="search" name="buscador" id="buscador" placeholder="busca tu producto"s/>
+        <input type="search" class="input" id="buscador" placeholder="busca tu producto"s/>
       </form>
-       <a class="relative" class="btn" href="carrito3.html" id="carrito"> Carrito<span>5</span></a>
-      </div>
+       <a class="relative" class="btn" href="carrito3.html" id="carrito"><b><i class="bi bi-bag-heart"></i> Carrito</b><span>5</span></a>
+    </div>
 </header>
 <nav>
+  <div class="wrap">
       <div>
         <ul >
           <li><a  href="login.html">Todos los productos</a></li>
@@ -47,19 +47,28 @@
           <li id="logout"><a  href="index.html">Logout</a></li>
         </ul>
       </div>
+    </div>
 </nav>
-<main>
-  <div class="m-productos">
-      
+<main >
+  <section class="jumbotron">
+    
+    <h1>Life is better without GLUTEN</h1>
+    <h4>Libre de culpa</h4>
+    <h4>Libre de alergenos</h4>
+
+  </section>
+  <div class="m-productos wrap">
+     
        <div>
-        <h4>Productos sin gluten</h4>
+        <h3>Productos sin gluten</h3>
         <h5>Encuentra aquí los mejores productos de la web:</h5>
       </div>
         <a class="btn" href="index.html">Ver Todos</a>
      
     </div>
-    <div>
-  <div class="card">
+    
+    <div class="main-cards wrap" >
+        <div class="card">
         
           <img src="../Images/galletassin.jpg" alt="galleta" />
       <div>
@@ -77,13 +86,14 @@
       </span>
           
         </div>
-        <p>Galletas sin GLuten GULLON 300g</p>
+        <p>Galletas GULLON 300g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
           <a href="descripcion4.html"class="btn">VER</a>
         </div>
       </div>
-    </div>
+      </div>
+    
     <div class="card">
         
           <img src="../Images/panrallado.jpg" alt="pan rallado" />
@@ -126,20 +136,21 @@
       </span>
           
         </div>
-        <p>Pan de molde sin Gluten de BIMBO 400g</p>
+        <p>Pan de molde de BIMBO 400g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
           <a href="descripcion4.html" class="btn">VER</a>
         </div>
       </div>  
-      </div>
-      <div class="card">
+    </div>
+    <div class="card">
         
           <img src="../Images/pastasin.jpg" alt="pasta" />
       <div> 
         <div>
           <h4>Pasta sin Gluten</h4>
           <h5>1,70<i class="bi bi-currency-euro m-color"></i></h5>
+        </div>
           <div class="valoracion">
             <span >
               <i class="bi bi-star "></i>
@@ -148,18 +159,18 @@
               <i class="bi bi-star "></i>
               <i class="bi bi-star "></i>
         </span>
-            
-          </div>
-        </div> 
-        </div>
-        <p>~Pasta sin Gluten GALLO 500g</p>
+            </div>
+        <p>Pasta sin Gluten GALLO 500g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
           <a href="descripcion4.html" class="btn">VER</a>
         </div>
       </div>
+    </div>
+  </div> 
+  <div class="wrap">
       <div>
-      </div>
+      
         <h3>Opiniones de productos</h3>
         <h5>Consigue gran variedad de productos</h5>
         <a href="descripcion4.html" class="btn">Leer todas las opiniones</a>
@@ -173,7 +184,8 @@
           productos.
           <h5>Maricarmen Sanchez</h5></p>
       </div>
-  
+    </div>
+  </div>
 <section>
         
           <div>
@@ -199,7 +211,7 @@
       
 </section>
 </main>
-<footer>
+<footer class="wrap">
         <div>
           <img src="../Images/Glutenfree1.jpg.jpg" name="logo" width="10%" />
          <h5> GlutenFreeAndy</h5>

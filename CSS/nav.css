@@ -1,13 +1,16 @@
-nav{
+nav {
+    border-top: 2px solid var(--gris);
+    border-bottom: 2px solid var(--gris);
+    background-color: var(--primario-claro);
+}
+
+nav div{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
- 
-    padding-bottom: 40px;
+
 }
 nav div ul{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: left;
     list-style-type: none;
