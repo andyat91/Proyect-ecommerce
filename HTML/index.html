@@ -23,11 +23,11 @@
 <body >
 <header class="wrap">
   <div class="index-login">
-      <h3><b>GlutenFreeAndy</b></h3>
+      <h3><b><span id="logo"><i class="bi bi-globe-americas"></i></span>Gluten<span id="logo">Free</span>Andy</b></h3>
       <form>
         <input type="search" class="input" id="buscador" placeholder="busca tu producto"s/>
       </form>
-       <a class="relative" class="btn" href="carrito3.html" id="carrito"><b><i class="bi bi-bag-heart"></i> Carrito</b><span>5</span></a>
+       <a class="relative" class="btn" href="carrito3.html" id="carrito"><b><i class="bi bi-bag-heart"></i> Carrito</b><span id="cantidad">5</span></a>
     </div>
 </header>
 <nav>
@@ -51,20 +51,21 @@
 </nav>
 <main >
   <section class="jumbotron">
-    
+    <div class="wrap">
     <h1>Life is better without GLUTEN</h1>
     <h4>Libre de culpa</h4>
     <h4>Libre de alergenos</h4>
-
+    <button id="jumbotron">Comprar</button>
+  </div>
   </section>
-  <div class="m-productos wrap">
-     
+  <div class="m-productos ">
+     <div  class="wrap">
        <div>
         <h3>Productos sin gluten</h3>
         <h5>Encuentra aquí los mejores productos de la web:</h5>
       </div>
         <a class="btn" href="index.html">Ver Todos</a>
-     
+      </div>
     </div>
     
     <div class="main-cards wrap" >
@@ -89,7 +90,7 @@
         <p>Galletas GULLON 300g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
-          <a href="descripcion4.html"class="btn">VER</a>
+          <a href="descripcion4.html"class="btn" class="ver">VER</a>
         </div>
       </div>
       </div>
@@ -114,7 +115,7 @@
         <p>Pan Rallado DIAT 250g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
-          <a href="descripcion4.html" class="btn">VER</a>
+          <a href="descripcion4.html" class="btn" class="ver">VER</a>
         </div>
       </div>
     </div>
@@ -139,7 +140,7 @@
         <p>Pan de molde de BIMBO 400g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
-          <a href="descripcion4.html" class="btn">VER</a>
+          <a href="descripcion4.html" class="btn" class="ver">VER</a>
         </div>
       </div>  
     </div>
@@ -163,19 +164,19 @@
         <p>Pasta sin Gluten GALLO 500g</p>
         <div>
           <a href="carrito3.html" class="btn">Añadir al carrito</a>
-          <a href="descripcion4.html" class="btn">VER</a>
+          <a href="descripcion4.html" class="btn" class="ver">VER</a>
         </div>
       </div>
     </div>
   </div> 
-  <div class="wrap">
+  <div class="opiniones wrap">
       <div>
       
         <h3>Opiniones de productos</h3>
         <h5>Consigue gran variedad de productos</h5>
         <a href="descripcion4.html" class="btn">Leer todas las opiniones</a>
       </div>
-      <div class="caja">
+      <div class="caja caja-destacada">
         <p>
           El precio esta bien algo más barato que en los centros comerciales,
           este pan es mucho mejor que otras marcas y el precio es más barato o
@@ -183,30 +184,46 @@
           en cuenta a las personas con celiaquía y bajan el IVA de estos
           productos.
           <h5>Maricarmen Sanchez</h5></p>
+          <div class="valoracion">
+            <span >
+              <i class="bi bi-star "></i>
+              <i class="bi bi-star "></i>
+              <i class="bi bi-star "></i>
+              <i class="bi bi-star "></i>
+              <i class="bi bi-star "></i>
+        </span>
       </div>
     </div>
   </div>
-<section>
+<section class="wrap garantia">
         
-          <div>
+        <div>
             <h1><i class="bi bi-credit-card"></i></h1>
+            <div>
             <h5>Pago Seguro</h5>
             <h6>100 por 100 Garantizado</h6>
           </div>
-          <div>
+        </div>
+        <div>
             <h1><i class="bi bi-truck"></i></h1>
+            <div>
             <h5>Envio Gratis</h5>
             <h6>En pedidos de mas de 20€</h6>
           </div>
+        </div>
           <div>
             <h1><i class="bi bi-geo"></i></h1>
+            <div>
             <h5>Local</h5>
             <h6>Bajos en azucar</h6>
           </div>
+          </div>
           <div>
             <h1><i class="bi bi-piggy-bank"></i></h1>
+            <div>
             <h5>Ofertas unicas</h5>
             <h6>100 por 100 Garantizado</h6>
+          </div>
           </div>
       
 </section>

@@ -1,6 +1,6 @@
 /*poner el boton de carrito para que pueda tener el numero flotando*/
 
-header span{
+header #cantidad{
     position: absolute;
     top: -8px;
     right: -8px;
@@ -14,7 +14,6 @@ header span{
     justify-content: center;
     align-items: center;
 }
-
 
 .btn,#carrito{
     color:var(--primario-oscuro);

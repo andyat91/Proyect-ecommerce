@@ -13,7 +13,7 @@ hsl(var(--hue) 30%, 70%, 1);
 --resalto:
 hsl(var(--hue) 40%, 40%, 1);
 --blanco:
-hsl(var(--hue) 20%, 98%, 1);
+hsl(var(--hue) 20%, 94%, 1);
 --gris:
 hsl(var(--hue) 30%, 10%, 0.15);
 --negro:
@@ -55,22 +55,29 @@ body{
   background-color: var(--blanco);
   margin: 0px
 }
-h1,h2,h3,h4,h5,h6 {
-  color:var(--primario);
-}
+
 
 .wrap {
   max-width: 1200px;
   padding: 0 16px;
   margin: 0 auto;
 }
+
+
 main .opiniones{
-  display: inline-block;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  margin-top:40px;
+
+
 }
+main .opiniones div{
+  width: 100%;
 
-
+}
+main .opiniones .caja-destacada{
+  text-align: center;
+}
 
 
 

@@ -1,16 +1,14 @@
 .valoracion {
-    color:#cacaca;
+    color:var(--primario-claro);
     margin-right: 8px;
 }
 .btn-block {
     display:block;
 }
 .card {
-    padding: 8px;
+    padding: 16px;
     border-radius: 5%;
-    border:1px solid;
-    display:inline-block; 
-    background-color:var(--blanco) ;  
+    background-color: white;
                
 }
 .card img{
@@ -21,26 +19,31 @@
 .valoracion i{
     margin-right: 8px;
 }
-.m-productos h4,h5 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 32px;
-    color: var(--negro);
+.m-productos .wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding:0px;
 }
-  .m-productos div h4, h5{
-    margin: 0px;
+.m-productos .wrap h3,h4{
+  margin:0px
+}
+.m-productos .wrap .btn{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
 
-  }
-  .m-productos div h4, h5{
-    margin: 0px;
-  }
   .card span i:hover{
     color: var(--resalto);
   }
   .main-cards{
    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+   justify-content: space-between;
+   padding:0px;
+   gap:8px
   }
+  
   

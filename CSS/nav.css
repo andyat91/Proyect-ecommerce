@@ -2,6 +2,8 @@ nav {
     border-top: 2px solid var(--gris);
     border-bottom: 2px solid var(--gris);
     background-color: var(--primario-claro);
+    padding:16px 16px;
+    color:var(--blanco);
 }
 
 nav div{
@@ -23,7 +25,7 @@ nav div ul li{
 }
 nav div ul li a{
     text-decoration: none;
-    color: var(--negro);
+    color: var(--blanco);
 }
 nav div ul li a:hover{
     color: var(--resalto);
