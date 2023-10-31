@@ -1,7 +1,26 @@
-.garantia{      
+.garantia{   
     display: flex;
     justify-content: space-between;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: var(--gris);
+   
 }
 .garantia div{
     display: flex;
-} 
+    border-right: 1px solid;
+    border-color: var(--gris);
+   
+}
+.garantia div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.garantia div h1{
+    margin:0px;
+}
+.garantia div div h5,h6{
+    margin:0px;
+}
