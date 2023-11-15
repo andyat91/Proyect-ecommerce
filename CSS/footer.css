@@ -1,0 +1,10 @@
+footer #logo{
+    color:var(--primario);
+}
+footer {
+    display: flex;
+ 
+}
+footer .logonav div{
+    display: flex;
+}
