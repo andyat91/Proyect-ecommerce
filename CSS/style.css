@@ -18,6 +18,8 @@ hsl(var(--hue) 20%, 94%, 1);
 hsl(var(--hue) 30%, 10%, 0.15);
 --negro:
 hsl(var(--hue) 30%, 5%, 1);
+--gris-oscuro:
+hsl(var(--hue) 30%, 10%, 0.30);
 }
 
 
