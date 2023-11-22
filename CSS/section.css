@@ -1,14 +1,14 @@
 .garantia{   
     display: flex;
     justify-content: space-between;
-    border-left: 1px solid;
-    border-right: 1px solid;
+
     border-color: var(--gris);
+    padding: 0px;
    
 }
 .garantia div{
     display: flex;
-    border-right: 1px solid;
+    border-left: 1px solid;
     border-color: var(--gris);
    
 }

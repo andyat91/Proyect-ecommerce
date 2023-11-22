@@ -36,7 +36,7 @@ footer .logonav div {
     justify-content: left;
 } 
 
-footer .logonav div ul {
+footer  div ul {
     list-style-type: none;
 
 }
@@ -58,3 +58,38 @@ footer .menu {
     margin-right: 32px;
 }
 
+footer .redes {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+footer .newsletter div {
+    margin-bottom: 40px;
+}
+footer .redes2 {
+    border-top: 1px solid var(--blanco);
+}
+footer .btn {
+    background-color: var(--blanco);
+    padding: 0;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top: 1px solid var(--primario-claro);
+    border-right: 1px solid var(--primario-claro);
+    border-bottom: 1px solid var(--primario-claro);
+} 
+
+footer .newsletter form{
+    display: flex;
+}
+footer .newsletter form input{
+    margin: 0;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 1px solid var(--primario-claro);
+    border-left: 1px solid var(--primario-claro);
+    border-bottom: 1px solid var(--primario-claro);
+}
+footer .check {
+    padding-top: 16px;
+}
