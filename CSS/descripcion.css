@@ -1,0 +1,16 @@
+.descripcion {
+    display: flex;
+    justify-content: space-between;
+    margin-top:64px;
+
+}
+.descripcion img {
+    margin-right: 64px;
+    border-radius: 16px;
+    width: 50%;
+      
+}
+.descripcion .producto-desc{
+    width: 100%;
+      
+}
