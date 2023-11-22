@@ -1,7 +1,4 @@
-footer div #logo{
-    color:var(--blanco);
-    
-}
+
 footer div #logo:hover{
     color:var(--resalto);
     

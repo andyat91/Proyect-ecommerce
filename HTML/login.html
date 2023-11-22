@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="../CSS/form.css"/>
 <link rel="stylesheet" href="../CSS/jumbotron.css"/>
 <link rel="stylesheet" href="../CSS/footer.css"/>
+<link rel="stylesheet" href="../CSS/login.css"/>
 </head>
   <body >
     
@@ -49,27 +50,29 @@
   <main class="wrap">
     <section class="login">
       <div class="caja">
-        <h4>Iniciar sesión</h4>
-       <p> Accede con tus datos anteriores</p>
+        <h3>Iniciar sesión</h3>
+       <h5> Accede con tus datos anteriores</h5>
         <form>
           <div>
-          <input class="login-input" type="email" name="email" placeholder="email" />
+          <input class="login-input " type="email" name="email" placeholder="email" />
         </div>
         <div>
-          <input  class="login-input" type="password" name="password" placeholder="password" />
+          <input  class="login-input " type="password" name="password" placeholder="password" />
         </div>
-          <button class="login-input" type="submit" class="btn">Iniciar sesion</button>
+          <button class="btn" type="submit" >Iniciar sesion</button>
         </form>
       </div>
       <div class="caja-destacada caja">
         <h3>Registrate </h3>
-        <h5> Crea una cuenta en GlutenFreeAndy y obten descuentos </h5>
-        <form>
-          <input class="login-input" type="text" name="Nombre" placeholder="nombre" />
-          <input class="login-input" type="text" name="Apellidos" placeholder="Apellidos" />
-          <input class="login-input" type="email" name="email" placeholder="Email" />
-          <input class="login-input" type="password" name="password" placeholder="Contraseña" />
-          <button class="login-input" type="submit" class="btn">Crear cuenta ahora</button>
+        <h5> Crea una cuenta en GlutenFreeAndy </h5>
+        <form >
+          <div class="nombre">
+          <input class="login-input block1" type="text" name="Nombre" placeholder="nombre" />
+          <input class="login-input block1" type="text" name="Apellidos" placeholder="Apellidos" />
+        </div>
+          <input class="login-input block "  type="email" name="email" placeholder="Email" />
+          <input class="login-input block" type="password" class="block" name="password" placeholder="Contraseña" />
+          <button class="btn" type="submit">Crear cuenta ahora</button>
         </form>
       </div>
     </section>

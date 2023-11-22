@@ -31,3 +31,9 @@ header #cantidad{
 .btn:hover,#carrito:hover{
     background-color: var(--primario-claro);
 }
+
+.login .btn {
+    display:inline;
+    width: 100%;
+    
+}
