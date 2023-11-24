@@ -22,3 +22,8 @@
 .login .nombre {
     display:flex;
 }
+.inicio .block {
+  
+    width: 100%;
+    padding-right: 200px;
+}
